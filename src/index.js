@@ -1,3 +1,9 @@
+
+const introPic = document.createElement('div');
+document.body.appendChild(introPic);
+introPic.className='introPic';
+introPic.innerHTML=`<img alt=me src="./pic.jpg" width="200">`
+
 const intro = document.createElement('div');
 document.body.appendChild(intro);
 intro.className='intro';
