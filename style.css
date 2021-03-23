@@ -8,11 +8,14 @@ body{
     margin-right: 20px;
     }
 
-    .intro{
-        margin-top: 200px;
-    }
+.intro{
+    font-family: Arial; 
+    margin-top: 200px;
+}
 
 .bio{
+    font-family: Arial;
+    font-size: 20px;
     text-align: center;
     margin-top: 200px;
 }
