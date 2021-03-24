@@ -24,7 +24,7 @@ git.innerHTML=`<a href="https://github.com/abad89">Github</a>`
 const blog = document.createElement('div');
 links.appendChild(blog);
 blog.className='blog';
-blog.innerHTML=`<a href="TBD">Blog Post: Why I'm Studying to Become a Software Developer</a>`;
+blog.innerHTML=`<a href="https://abad89.medium.com/why-i-want-to-study-software-engineering-7bd7b4e8780">Blog Post: Why I'm Studying to Become a Software Developer</a>`;
 const email = document.createElement('div');
 links.appendChild(email);
 email.className=`email`;
