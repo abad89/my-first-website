@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Arial;
     background: #202124;
-    color: white
- 
+    color: white;
 }
 
 .introPic{
@@ -29,12 +33,18 @@ body{
     width: 800px;
 }
 
-#links{
-    float:
+.links{
+    background: black;
+    margin-top: 150px;
+    padding: 79px;
+    display: flex;
 }
 
-#links div{
-    display: table-cell
+.links a{
+    color: white;
+}
+
+.links div{
+    width: 33%;
     text-align: center;
-    width: 25%;
 }
