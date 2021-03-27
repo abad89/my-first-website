@@ -29,3 +29,22 @@ const email = document.createElement('div');
 links.appendChild(email);
 email.className=`email`;
 email.innerHTML=`<a href="mailto:abadalamenti89@gmail.com">abadalamenti89@gmail.com</a>`;
+
+const aTagArray = document.getElementsByTagName(`a`)
+
+function mouseOnLinks() {
+    links.style.background = `white`;
+    for (let i=0; i < aTagArray.length; i++) {
+        aTagArray[i].style.color = `black`;
+    };
+}
+
+function mouseOffLinks() {
+    links.style.background = `black`;
+    for (let i=0; i < aTagArray.length; i++) {
+        aTagArray[i].style.color = `white`;
+     };
+}
+
+links.addEventListener(`mouseover`, mouseOnLinks);
+links.addEventListener('mouseout', mouseOffLinks);
