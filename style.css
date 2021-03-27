@@ -1,6 +1,8 @@
 body{
+    font-family: Arial;
     background: #202124;
     color: white
+ 
 }
 
 .introPic{
@@ -10,13 +12,29 @@ body{
     }
 
 .intro{
-    font-family: Arial; 
     margin-top: 200px;
+    letter-spacing: .2ex;
+}
+
+.intro h1{
+    margin-bottom: 140px;
 }
 
 .bio{
-    font-family: Arial;
     font-size: 20px;
     text-align: center;
     margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#links{
+    float:
+}
+
+#links div{
+    display: table-cell
+    text-align: center;
+    width: 25%;
 }
